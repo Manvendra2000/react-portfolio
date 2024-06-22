@@ -11,6 +11,7 @@ export const EXPERIENCES = [
   {
     year: "March 2024 - July 2024",
     role: "WordPress Developer",
+    link: "https://www.mjaassociate.com/",
     company: "MJ Associate",
     description: `Collaborated with stakeholders to design a website for an architectural studio using HTML, CSS, jQuery, and JavaScript. Developed a comprehensive list of the studio's services and managed project requirements and timelines effectively.`,
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
@@ -19,12 +20,14 @@ export const EXPERIENCES = [
     year: "January 2024 - March 2024",
     role: "WordPress Developer",
     company: "CS Akshay Gupta",
+    link: "https://www.csakshay.com",
     description: `Developed a professional portfolio website for a company secretary using WordPress, incorporating plugins such as Elementor and WP Forms. The site effectively showcases all services offered, featuring a user-friendly design that highlights the secretary's skills and expertise.`,
     technologies: ["PHP", "Elementor", "WordPress", "mySQL"],
   },
   {
     year: "September 2023 - December 2023",
     role: "WordPress Developer",
+    link: "https://www.rajasthanipassenger.com",
     company: "Rajasthani Passenger",
     description: `Developed a travel agency website using WordPress and Elementor. Integrated user-friendly contact forms with WPForms, streamlining the booking inquiry process. Handled all aspects of development, maintenance, and ongoing technical support.`,
     technologies: ["WordPress", "WPForms", "Elementor", "Yoast SEO"],
@@ -33,32 +36,36 @@ export const EXPERIENCES = [
     year: "July 2023 - September 2023",
     role: "WordPress Developer",
     company: "My Health Page",
+    link: "https://www.myhealthpage.in",
     description: `Contributed to the development of website using WordPress and Updraft Plus. Created an online encyclopedia for the users with over hundreds of SEO optimized articles. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: ["WordPress", "Wordfence", "Updraft Plus", "PHP"],
   },
 ];
 
 export const PROJECTS = [
- /* {
-    title: "E-Commerce Website",
+  {
+    title: "Real Estate Website",
     image: project1,
+    link: "https://real-estate-next-js-omega.vercel.app/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Real Estate Website integrated with shadcn/ui components for a responsive website with a Navbar, hero section, 'How it works' guide, featured properties, and sections styled using Tailwind CSS, culminating in deployment on Vercel.",
+    technologies: ["NextJS", "Shadcn", "React", "Tailwind", "Vite"],
   },
   {
-    title: "Task Management App",
+    title: "Virtual Reality Website",
     image: project2,
+    link: "https://vr-website-react.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  }, */
+      "A modern, fully responsive website using React and Tailwind CSS with Vite, featuring a responsive Navbar, gradient text hero section, autoplay videos, feature listings, pricing cards, testimonials, and deployment on Vercel.",
+    technologies: ["React", "Tailwind", "Vite", "Google Fonts"],
+  },
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://react-portfolio-blush-one.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A fully responsive website showcasing a modern UI/UX design featuring a navbar, a dynamic hero section with the Full stack developer's name and description, followed by sections on About, Technologies stack, Work Experience, Projects, and Contacts.",
+    technologies: ["ReactJS", "Tailwind CSS", "HTML", "Framer Motion"],
   },
   {
     title: "Blogging Platform",
