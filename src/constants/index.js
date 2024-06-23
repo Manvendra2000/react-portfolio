@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a highly motivated front-end developer with extensive experience as a freelancer. I have successfully created numerous front end websites utilising various web technologies, including WordPress and frameworks such as ReactJS. My expertise in crafting visually appealing and responsive user interfaces, combined with my strong problem-solving skills and attention to detail, has allowed me to deliver high-quality projects that meet client requirements and industry standards.  `;
 
@@ -58,6 +59,13 @@ export const PROJECTS = [
     description:
       "A modern, fully responsive website using React and Tailwind CSS with Vite, featuring a responsive Navbar, gradient text hero section, autoplay videos, feature listings, pricing cards, testimonials, and deployment on Vercel.",
     technologies: ["React", "Tailwind", "Vite", "Google Fonts"],
+  },
+  {
+    title: "Modern Banking App",
+    image: project5,
+    link: "https://modern-banking-app.vercel.app/",
+    description:"A modern banking website built using the Tailwind CSS framework in React. This project features a stunning hero section with high-quality assets and gradients, business statistics, reusable feature sections, CTA buttons, and more.",
+    technologies: ["React", "Tailwind", "Vite"],
   },
   {
     title: "Portfolio Website",
